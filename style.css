@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+    text-align: center;
+    background-color: #130834;
+    color: bla;
+}
+
+:root{font-size: 62.5%;}
+
+.title{
+    color: #eff0eb;
+    font-size: 7rem;
+}
+
+strong{
+    color: #F1336F;
+}
+
+#time{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #F1336F;;
+}
+
+#start, #stop, #restart, #stopall{
+    font-family: 'Quicksand';
+    border-radius: 40rem;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0px 3px 0px  #9a9a9a;
+}
+
+@media (max-width: 600px) {
+    #stopall {
+       margin-top: 15px;
+    }
+}
+
+#start:active,#stop:active, #restart:active,#stopall:active{
+    box-shadow: none;
+    transform: scale(0.95);
+    background-color: #c2c5b7;
+    transition: background-color 0.1s, transform 0.1s;
+}
+
+
+#start:hover,#stop:hover, #restart:hover,#stopall:hover{
+    outline: 1px solid #F1336F;
+}
+
+.alpha{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#change{
+    font-family: 'Quicksand';
+    border-radius: 80rem;
+    border: none;
+    font-size: 1.5rem;
+    align-items: start;
+    
+    
+}
+
+
+.relogio {
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 40rem;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0px 3px 0px #9a9a9a;
+    width: 200px;
+    cursor: pointer; 
+}
+
+#relogio {
+    text-decoration: none;
+    color: black;
+}
+
+.relogio:hover{
+    outline: 1px solid #F1336F;
+    
+}
